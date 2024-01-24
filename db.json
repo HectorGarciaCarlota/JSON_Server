@@ -1,0 +1,80 @@
+{
+  "warframes": [
+    {
+      "name": "Saryn",
+      "faction": "Infested",
+      "type": "Caster",
+      "health": 300,
+      "shields": 300,
+      "armor": 175,
+      "energy": 225,
+      "sprintSpeed": 1.1,
+      "abilities": [
+        {
+          "name": "Spores",
+          "description": "Infects a target with spores, spreading to nearby enemies."
+        },
+        {
+          "name": "Molt",
+          "description": "Sheds a decoy that distracts enemies and explodes when destroyed."
+        },
+        {
+          "name": "Toxic Lash",
+          "description": "Coats melee weapons with toxins, dealing additional Toxin damage."
+        },
+        {
+          "name": "Miasma",
+          "description": "Releases a deadly toxin in an area, damaging and stunning enemies."
+        }
+      ],
+      "passiveAbility": {
+        "name": "Toxic Avenger",
+        "description": "Saryn gains additional status chance with weapons."
+      },
+      "augmentMods": [
+        {
+          "name": "Regenerative Molt",
+          "description": "Molt regenerates health over time."
+        }
+      ]
+    },
+    {
+      "name": "Rhino",
+      "faction": "Tenno",
+      "type": "Tank",
+      "health": 500,
+      "shields": 300,
+      "armor": 375,
+      "energy": 150,
+      "sprintSpeed": 0.95,
+      "abilities": [
+        {
+          "name": "Rhino Charge",
+          "description": "Charges forward, damaging and knocking down enemies."
+        },
+        {
+          "name": "Iron Skin",
+          "description": "Hardens Rhino's skin, providing a protective barrier."
+        },
+        {
+          "name": "Stomp",
+          "description": "Stomps the ground, causing a shockwave that suspends enemies."
+        },
+        {
+          "name": "Roar",
+          "description": "Emits a war cry, buffing the damage of Rhino and nearby allies."
+        }
+      ],
+      "passiveAbility": {
+        "name": "Heavy Landing",
+        "description": "Rhino creates shockwaves upon landing from a significant height."
+      },
+      "augmentMods": [
+        {
+          "name": "Iron Shrapnel",
+          "description": "Iron Skin can be detonated to damage nearby enemies."
+        }
+      ]
+    }
+  ]
+}
